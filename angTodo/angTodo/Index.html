@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="TodoApp">
+<head>
+    <title>Amazing Todo using Angular</title>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-resource.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/App/app.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Master page </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-col-md-5">
+                <div ng-view></div>
+            </div>
+            <div class="col-col-md-7">
+                <h2>Root second column</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
